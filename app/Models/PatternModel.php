@@ -8,7 +8,7 @@ use CodeIgniter\Model;
 class PatternModel extends Model
 {
 
-    //CREATE TABLE pattern (id INT, redValue VARCHAR(5), yellowValue VARCHAR(5), blueValue VARCHAR(5), blackValue VARCHAR(5), whiteValue VARCHAR(5), lValue VARCHAR(5), aValue VARCHAR(5), bValue VARCHAR(5));
+    //CREATE TABLE pattern (id INT AUTO_INCREMENT, redValue VARCHAR(5), yellowValue VARCHAR(5), blueValue VARCHAR(5), blackValue VARCHAR(5), whiteValue VARCHAR(5), lValue VARCHAR(5), aValue VARCHAR(5), bValue VARCHAR(5), PRIMARY KEY (id));
 
     /**
      * @var string
